@@ -1,0 +1,7 @@
+data_extraction_scripts/__pycache__
+dbt_workflow/dbt/.user.yml
+dbt_worflow/target/
+dbt_worflow/dbt_packages/
+dbt_worflow/logs/
+re_scrips/
+.DS_Store
