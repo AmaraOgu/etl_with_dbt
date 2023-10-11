@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: user_data_csv
+    columns:
+      - name: "First Name"
+        
+      - name: "Second Name"
+
+      - name: "Age (Years)"
+
+      - name: Sex
+
+      - name: "Vehicle Make"
+        
+      - name: "Vehicle Model"
+        
+      - name: "Vehicle Year"
+        
+      - name: "Vehicle Type"
+        
+
+  - name: user_data_json
+    columns:
+      - name: user_data
+        
+  
+  - name: user_data_txt
+    columns:
+      - name: text_value
+       
+ 
+
+  - name: user_data_xml
+    columns:
+      - name: user_data
+        
+
+  

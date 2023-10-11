@@ -1,0 +1,18 @@
+version: 2
+
+# define the data sources 
+sources:
+  - name: raw_data
+    schema: raw_data
+    database: postgres
+    tables: 
+      - name: user_data_csv
+      - name: user_data_json
+      - name: user_data_txt
+      - name: user_data_xml
+      
+
+      
+
+
+
