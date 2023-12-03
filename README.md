@@ -1,6 +1,6 @@
 # Overview
 
-The content in this repository is published as blogs on Medium
+The content in this repository is published as blogs on [Medium](https://medium.com/@amarachi.ogu/hands-on-etl-project-with-python-dbt-and-postgresql-384486bb4e32)  
 
 ## Scenario
 XYZ Ltd, a small-to-medium business, is looking to unify their customer data from multiple systems into a single database. Their customer data is currently spread across various systems and in different formats. E.g. Credit card data is only stored by the financial systems, Employment is only within the HR systems, etc.
@@ -9,9 +9,7 @@ XYZ Ltd, a small-to-medium business, is looking to unify their customer data fro
 The ultimate objective is to standardize and create a single, cohesive record representing all of their customer data, which will then be entered into a relational database system. This will allow them to more easily analyze and exploit their data.
 
 ## Architecture Diagram
-
-
-
+![Workflow Architecture Diagram](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*J3a4NOPLjpndjXmREBRebw.png) 
 
 ## File Layout
 ```
@@ -89,5 +87,5 @@ dbt run - profiles-dir dbt
 
 The resulting table is then loaded into the analytics schema in the PostgreSQL database. This will allow XYZ Ltd to more easily analyze and exploit their data.
 
-The content in this repository is published as blogs on Medium
+The content in this repository is published as blogs on [Medium](https://medium.com/@amarachi.ogu/hands-on-etl-project-with-python-dbt-and-postgresql-384486bb4e32)  
 
